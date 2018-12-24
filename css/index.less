@@ -1,0 +1,321 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  font-family: "微软雅黑";
+}
+.clearfix:after {
+  content: ".";
+  width: 0;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+.whCss{
+    width:100%;
+    height:100%;
+}
+.imgCss{
+    display:block;
+    width:100%;
+}
+@keyframes music{
+    from{transform:rotate(0deg)}
+    to{transform:rotate(360deg)}
+}        
+.addMus{
+    animation:music 3s linear 0s infinite;
+}         
+.music{
+    z-index:10;
+    height:30px;
+    width:30px;
+    position:fixed;
+    font-size:24px;
+    background:none;
+    right:15px;
+    top:15px;
+    border-radius:50%;
+    border:2px solid #fff;
+    color:#fff;
+    text-align:center;
+    line-height:30px;
+}
+@keyframes one{
+    from{transform:scale(0.5) rotate(0deg) translate(0px);}
+    to{transform:scale(1) rotate(-180deg) translate(20px);}
+}
+@keyframes two{
+    from{transform:scale(0.5) rotate(0deg) translate(0px);}
+    to{transform:scale(1) rotate(180deg) translate(15px);}
+}
+@keyframes three{
+    from{transform:scale(0.5) rotate(0deg) translate(0px);}
+    to{transform:scale(1) rotate(-180deg) translate(-15px);}
+}
+.music .one{
+    animation:one 3s linear 0s infinite;
+    position:absolute;
+    left:5px;
+    top:10px;
+    z-index:20}
+.music .two{
+    animation:two 3s linear 0s infinite;
+    position:absolute;
+    left:20px;
+    top:10px;
+    font-size:5px;
+    z-index:20;
+}
+.music .three{
+    animation:thre 3s linear 0s infinite;
+    position:absolute;
+    left:20px;
+    top:15px;
+    font-size:5px;
+    z-index:20;
+}
+html{
+    .whCss;
+    body{
+        .whCss;
+        .swiper-container{
+            .whCss;
+            overflow:hidden;
+            .page1{
+                .whCss;
+                overflow:hidden;
+                background:url(../images/pageone_back.png) no-repeat center center;
+                background-size:100% 100%;
+                position:relative;
+                .cockBox{
+                    width:77.5%;
+                    height:11.9rem;
+                    margin-left:12%;
+                    margin-top:3rem;
+                    img{
+                        .imgCss;
+                    }
+                }
+                .numBox{
+                    width:26%;
+                    height:2rem;
+                    margin-left:37%;
+                    margin-top:1rem;
+                    img{
+                        .imgCss;
+                    }
+                }
+                .sealBox{
+                    width:10%;
+                    height:2rem;
+                    position:absolute;
+                    left:63%;
+                    top:16rem;
+                    img{
+                        .imgCss;
+                    }
+                }
+                .textBox{
+                    width:80%;
+                    height:3.2rem;
+                    margin-left:12%;
+                    margin-top:2.5rem;
+                    img{
+                        .imgCss;
+                    }
+                }
+                .sealbox{
+                    width:30%;
+                    height:15.62rem;
+                    position:absolute;
+                    left:3%;
+                    top:13rem;
+                    img{
+                        .imgCss;
+                    }
+                }
+            }
+            .page2{
+                .whCss;
+                overflow:hidden;
+                position:relative;
+                .topBox{
+                    width:100%;
+                    height:7.7rem;
+                    img{
+                        .imgCss;
+                    }
+                }
+                .centerBox{
+                    width:100%;
+                    height:8.5rem;
+                    margin-top:3rem;
+                    img{
+                        .imgCss;
+                    }
+                }
+                .bottomBox{
+                    width:100%;
+                    height:7.7rem;
+                    position:absolute;
+                    bottom:0;
+                    left:0;
+                    img{
+                        .imgCss;
+                    }
+                }
+            }
+            .page3{
+                .whCss;
+                background:url(../images/page3_back.png) no-repeat;
+                background-size:100% 100%;
+                position:relative;
+                overflow:hidden;
+                .textBox{
+                    width:68%;
+                    height:10.9rem;
+                    position:absolute;
+                    left:50%;
+                    top:50%;
+                    margin-left:-34%;
+                    margin-top:-5.45rem;
+                    img{
+                        .imgCss;
+                    }
+                }
+                .rightBox{
+                    width:28%;
+                    height:3.15rem;
+                    position:absolute;
+                    right:0;
+                    bottom:0;
+                    img{
+                        .imgCss;
+                    }
+                }
+                span{
+                    display:block;
+                    width:100%;
+                    height:0.8rem;
+                    line-height:0.8rem;
+                    font-size:0.8rem;
+                    color:#fff;
+                    text-align:center;
+                    position:absolute;
+                    left:0;
+                }
+                .topText{
+                    top:3rem;
+                }
+                .btmText{
+                    bottom:3rem;
+                }
+            }
+            .page4{
+                .whCss;
+                overflow:hidden;
+                position:relative;
+                .righttop{
+                    width:37%;
+                    height:11rem;
+                    position:absolute;
+                    right:0;
+                    top:0;
+                    img{
+                        .imgCss;
+                    }
+                }
+                .leftbottom{
+                    width:37%;
+                    height:11rem;
+                    position:absolute;
+                    left:0;
+                    bottom:0;
+                    img{
+                        .imgCss;
+                    }
+                }
+                .flowerBox{
+                    width:38.75%;
+                    height:2.7rem;
+                    position:absolute;
+                    left:0;
+                    top:0;
+                    img{
+                        .imgCss;
+                    }
+                }
+                .leftText{
+                    width:20%;
+                    height:12.35rem;
+                    position:absolute;
+                    left:31%;
+                    top:3rem;
+                    img{
+                        .imgCss;
+                    }
+                }
+                .rightText{
+                    width:20%;
+                    height:12.35rem;
+                    position:absolute;
+                    right:23%;
+                    bottom:1rem;
+                    img{
+                        .imgCss;
+                    }
+                }
+            }
+            .page5{
+                .whCss;
+                overflow:hidden;
+                position:relative;
+                .topBox{
+                    width:100%;
+                    height:11.5rem;
+                    margin-top:0.5rem;
+                    img{
+                        .imgCss;
+                    }
+                }
+                .bottomBox{
+                    width:100%;
+                    height:14rem;
+                    background:#e20c0c;
+                    margin-top:3rem;
+                    position:relative;
+                    box-sizing:border-box;
+                    padding-top:3rem;
+                    .imgBox{
+                        width:100%;
+                        height:4.1rem;
+                        position:absolute;
+                        left:0;
+                        top:-2rem;
+                        img{
+                            .imgCss;
+                        }
+                    }
+                    .textBox{
+                        width:100%;
+                        height:8.5rem;
+                        color:#fff;
+                        font-size:0.9rem;
+                        div{
+                            height:1.5rem;
+                            line-height:1.5rem;
+                            width:100%;
+                            text-align:center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
